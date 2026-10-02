@@ -1,0 +1,57 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+*/build/
+
+# Gradle files
+.gradle/
+
+# Local configuration file (contains SDK path)
+local.properties
+
+# Proguard
+proguard/
+
+# Log Files
+*.log
+
+# Android Studio captures folder
+captures/
+
+# IntelliJ IDEA / Android Studio
+*.iml
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+
+# Keystore credentials & signing secrets (NEVER COMMIT)
+*.jks
+*.keystore
+keystore.properties
+
+# Google Services (Firebase)
+google-services.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Kotlin compiler caches
+.kotlin/

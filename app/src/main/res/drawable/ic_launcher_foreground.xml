@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- IC Lead Pads (Top & Bottom) -->
+    <path
+        android:fillColor="#52525B"
+        android:pathData="M39,27h4v7h-4z M47,27h4v7h-4z M55,27h4v7h-4z M63,27h4v7h-4z
+                          M39,74h4v7h-4z M47,74h4v7h-4z M55,74h4v7h-4z M63,74h4v7h-4z" />
+
+    <!-- IC Lead Pads (Left & Right) -->
+    <path
+        android:fillColor="#52525B"
+        android:pathData="M27,39h7v4h-7z M27,47h7v4h-7z M27,55h7v4h-7z M27,63h7v4h-7z
+                          M74,39h7v4h-7z M74,47h7v4h-7z M74,55h7v4h-7z M74,63h7v4h-7z" />
+
+    <!-- Main Matte Package Body -->
+    <path
+        android:fillColor="#15171C"
+        android:strokeColor="#272A30"
+        android:strokeWidth="1.5"
+        android:pathData="M34,34 h40 v40 h-40 z" />
+
+    <!-- Pin 1 Hardware Index Notch (Top-Left) -->
+    <path
+        android:fillColor="#FFB000"
+        android:pathData="M34,34 L42,34 L34,42 z" />
+
+    <!-- Inner Silicon Die Carrier -->
+    <path
+        android:fillColor="#0D0E11"
+        android:strokeColor="#FFB000"
+        android:strokeWidth="1"
+        android:pathData="M42,42 h24 v24 h-24 z" />
+
+    <!-- Monolithic Storage Flash Matrix -->
+    <path
+        android:strokeColor="#FFB000"
+        android:strokeWidth="1.4"
+        android:pathData="M46,47 h16 M46,52 h10 M46,57 h16 M46,62 h6" />
+
+    <path
+        android:fillColor="#FFB000"
+        android:pathData="M59,51 h3 v3 h-3 z M54,61 h3 v3 h-3 z" />
+</vector>
