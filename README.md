@@ -41,6 +41,61 @@
 - Built-in **"Copy Colon-Aligned Diagnostic Report"** engine.
 - Formats every key-value pair across all hardware sections to a single, globally aligned colon column with automated multiline indentation. Perfect for pasting directly into GitHub issues, Telegram messages, or technical bug reports.
 
+<details>
+<summary><b>🔍 Sample Exported Diagnostic Report</b> (Click to expand)</summary>
+
+```text
+-----------------------------------------------------
+ CIGER // LOW-LEVEL DEVICE & SILICON REPORT
+ Generated: 2026-10-02 19:30:54
+-----------------------------------------------------
+
+Device               : Xiaomi Redmi Note 8 Pro (begonia)
+Android Version      : 15 (API 35)
+Root Access          : Active (uid 0)
+Battery Telemetry    : 42% (Charging, USB Cable, 32.3°C, 3987 mV, Good (Healthy))
+
+[INTERNAL STORAGE (UFS)]
+Storage type         : UFS (Universal Flash Storage)
+Vendor               : SAMSUNG
+Product model        : KM2V8001CM-B707
+Firmware revision    : 0600
+Capacity             : 119.2 GB
+Command queue depth  : 32
+SCSI standard        : SCSI Level 7
+WWID                 : eui.53414d53554e4700
+Health status        : Operational (Active • Normal)
+Health descriptor    : Kernel omits debugfs health table
+
+[EXTERNAL MICROSD CARD]
+Product name         : SDU1
+Manufacturer         : Samsung (0x00001b)
+Capacity             : 29.5 GB (CSD v2.0)
+Manufacturing date   : 01/2020
+
+[PROCESSOR]
+Cores                : 8
+Hardware             : MT6785V/CC
+CPU0 Max freq        : 2000 MHz
+Supported ABIs       : arm64-v8a, armeabi-v7a, armeabi
+
+[MEMORY]
+Total RAM            : 5.5 GB
+Available RAM        : 1.7 GB (1.2 GB cached)
+Swap total           : 3.0 GB (2.2 GB free)
+
+[DISPLAY]
+Resolution           : 1080 × 2340 px (440 dpi @ 60 Hz)
+
+[SYSTEM]
+Brand / Manufacturer : Redmi / Xiaomi
+Model                : Redmi Note 8 Pro (begonia)
+Android version      : 15 (API 35)
+Security patch       : 2025-04-05
+-----------------------------------------------------
+```
+</details>
+
 ### 🛡️ 5. Dual-Mode Operation (Root & Non-Root)
 - **Non-Root**: Safe, SELinux-compliant telemetry querying public Android APIs and accessible sysfs files.
 - **Root (Magisk / KernelSU / APatch)**: Unlocks privileged direct access to raw flash block devices, EXT_CSD sysfs nodes, and storage debug interfaces.
