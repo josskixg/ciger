@@ -40,7 +40,8 @@ android {
             isMinifyEnabled = true
             isShrinkResources = true
             proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            signingConfig = signingConfigs.findByName("release")
+            // Gunakan keystore release jika tersedia (di lokal), atau fallback ke debug key di CI agar APK selalu SIGNED dan bisa langsung diinstall
+            signingConfig = signingConfigs.findByName("release") ?: signingConfigs.getByName("debug")
         }
     }
 
